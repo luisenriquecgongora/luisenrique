@@ -6,7 +6,8 @@ import ReactPlayer from 'react-player'
 import './index.css';
 
 let text = {
-  moto: {en: 'Turning your Web Ideas into Reality', es: 'Transformamos tus Ideas en Realidad', pl: 'Zamieniamy Twoje Pomysły w Rzeczywistość'},
+  moto: {en: 'Turning your Web Ideas into Reality', es: 'Transformamos tus Ideas en Realidad', pl: 'Zmień swoje pomysły w rzeczywistość'},
+  services: {en: 'Web Development · Frontend · Backend · Digital Catalogs · Online Stores · Chatbots', es: 'Desarrollo Web · Frontend · Backend · Catálogos Digitales · Tiendas en Línea · Chatbots', pl: 'Tworzenie stron internetowych · Frontend · Backend · Katalogi cyfrowe · Sklepy internetowe · Chatboty'}
 }
 
 const mapStateToProps = (state) => {
@@ -40,7 +41,7 @@ class AboutConnected extends Component {
                    typeSpeed={40}
                />
               </h1>
-              <p className="code-font">Web Development · Frontend · Backend · Digital Catalogs · Online Stores · Chatbots</p>
+              <p>{text.services[this.props.language]}</p>
             </div>
           </div>
         </div>

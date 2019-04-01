@@ -10,39 +10,33 @@ let text = {
   title:
     {
       en: 'Do you have any Web Ideas?',
-      es: '¿Eres profesor o capacitador?',
-      pl: 'Czy jesteś nauczycielem lub trenerem?'
+      es: '¿Tienes en mente una página web?',
+      pl: 'Czy chcesz stworzyć stronę internetową?'
     },
   description:
     {
       en: 'You imagine. We create. We make the imposible to make it real. We can: ',
-      es: 'Sabemos que preparar los curso, materiales y compartir toda la información con nuestros estudiantes puede ser una pesadilla y llegar a consumir mucho tiempo. Con nuestra ayuda es mucho más fácil.',
-      pl: 'Wiemy, że przygotowanie kursu, materiałów i dzielenie się informacjami z uczniami może być koszmarem i czasochłonne. W Empathy jest to łatwe.'
+      es: 'Tú imagine. Nosotros lo hacemos realidad. Convertimos lo imposible en realidad. Nosotros podemos: ',
+      pl: 'Wyobrażasz sobie. Tworzymy. Sprawiamy, że niemożliwe staje się to realne. Możemy:'
     },
   benefitA:
     {
       en: 'Design a unique website or webapp.',
-      es: '',
-      pl: 'Utwórz zajęcia, kurs lub program.'
+      es: 'Diseñar un sitio web o una aplicación web única',
+      pl: 'Zaprojektuj unikalną stronę internetową lub aplikację internetową.'
     },
   benefitB:
     {
       en: 'Code and implement your website in the cloud',
-      es: 'Cargue materiales en archivos PDF, videos, imágenes, YouTube y Google Drive',
-      pl: 'Przesyłaj materiały w plikach PDF, wideo, grafikach, YouTube i Google Drive Links'
+      es: 'Programar e implementar el sitio web en la nube',
+      pl: 'Koduj i implementuj swoją witrynę w chmurze'
     },
   benefitC:
     {
       en: 'Make Digital Marketing Campaigns',
-      es: 'Invitar a personas al curso.',
-      pl: 'Zaproś ludzi na kurs'
-    },
-  benefitD:
-    {
-      en: 'Accept Debid/Credit Card payments',
-      es: 'Aceptar pagos con tarjeta de crédito / débito',
-      pl: 'Akceptuj płatności debetowe / kartą kredytową'
-    },
+      es: 'Crear campañas de Marketing Digital',
+      pl: 'Twórz kampanie marketingu cyfrowego'
+    }
 }
 
 const mapStateToProps = (state) => {
@@ -85,29 +79,24 @@ class MotoConnected extends Component {
   render() {
     return (
       <div className="">
-        <div className="abelFont container-school">
-          <InView onChange={this.showGif}>
-            <div className="container-description-school hide-on-med-and-down">
-              <div className='element-inside-school'>
-                <img ref={this.imageWeb} src="/media/images/gif2.gif" className="img-school"></img>
+        <InView onChange={this.showGif}>
+          <div className="abelFont container-moto">
+              <div className="container-description-moto">
+                <img alt="you-imagine-we-create" ref={this.imageWeb} src="/media/images/gif2.gif" className="img-moto"></img>
               </div>
-            </div>
-            <div className="container-description-school">
-              <div className='element-inside-school no-margin-top'>
-                  <div ref={this.textWeb} className="text-school">
-                    <h2 className="left title-school">{text.title[this.props.language]}</h2>
-                    <img src="/media/images/gif2.gif" className="img-school hide-on-med-and-up"></img>
-                    <p className="poiret-font">{text.description[this.props.language]}</p>
-                      <ul className="montserrat-font">
-                        <li>{text.benefitA[this.props.language]}</li>
-                        <li>{text.benefitB[this.props.language]}</li>
-                        <li>{text.benefitC[this.props.language]}</li>
-                      </ul>
-                  </div>
+              <div className="container-description-moto">
+                <div ref={this.textWeb} className="text-moto">
+                  <h2 className="left title-moto">{text.title[this.props.language]}</h2>
+                  <p className="poiret-font">{text.description[this.props.language]}</p>
+                    <ul className="poiret-font">
+                      <li>{text.benefitA[this.props.language]}</li>
+                      <li>{text.benefitB[this.props.language]}</li>
+                      <li>{text.benefitC[this.props.language]}</li>
+                    </ul>
+                </div>
               </div>
-            </div>
-          </InView>
-        </div>
+          </div>
+        </InView>
       </div>
     );
   }

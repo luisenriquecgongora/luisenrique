@@ -7,7 +7,7 @@ import LanguageSelector from 'LanguageSelector/index';
 let text = {
   home: {en: 'Home', es: 'Inicio', pl: 'Dom'},
   offer: {en: 'Offer', es: 'Oferta', pl: 'Oferta'},
-  contact: {en: 'Contact', es: 'Studiantes', pl: 'Studenci'},
+  contact: {en: 'Contact', es: 'Contacto', pl: 'Kontakt'},
 
 }
 
