@@ -46,16 +46,12 @@ class TopBarConnected extends Component {
 
   handleScroll(e){
     let position = window.scrollY;
-    if(position>=20){
+    if(position>=1){
       this.setState({
-        background: 'background-scrolled',
-        color: 'font-color-scrolled',
         scrolled: true
       })
     }else{
       this.setState({
-        background: '',
-        color: '',
         scrolled: false
       })
     }

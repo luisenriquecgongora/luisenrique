@@ -5,7 +5,6 @@ import {
   Route, Switch, Redirect
 } from 'react-router-dom';
 import Landing from './Landing/Landing';
-import Mentor from './Mentor/Mentor';
 import { Provider } from "react-redux";
 import store from "./redux-helper/store/index";
 import LanguageSelector from "./LanguageSelector/index";

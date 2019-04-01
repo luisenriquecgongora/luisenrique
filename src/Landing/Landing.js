@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Home from './Home/index';
 import Moto from './Moto/index.js';
 import TopBar from './TopBar/index';
+import Clients from './Clients/index';
 import Footer from './Footer/Footer';
 import { connect } from "react-redux";
 import scrollToComponent from 'react-scroll-to-component';
@@ -40,8 +41,9 @@ class LandingConnected extends Component {
         <TopBar go2Home={this.go2Home} go2Moto={this.go2Moto} go2Contact={this.go2Contact}  personalized={this.state.personalized}/>
           <div>
             <Home ref={(section) => { this.home = section; }}/>
-              <Moto ref={(section) => { this.school = section; }}/>
-              <Footer ref={(section) => { this.contact = section; }}/>
+            <Moto ref={(section) => { this.school = section; }}/>
+            <Clients ref={(section) => { this.clients = section; }}/>
+            <Footer ref={(section) => { this.contact = section; }}/>
           </div>
       </div>
     );

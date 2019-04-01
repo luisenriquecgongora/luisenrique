@@ -1,0 +1,28 @@
+.clients-container{
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 10vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  padding: 3%;
+}
+
+.title-clients{
+  color: black;
+  border-bottom: 10px solid transparent;
+}
+
+.image-client{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  filter: drop-shadow(0px 1px 1px #000000);
+}
+
+.image-client:hover{
+  filter: drop-shadow(1px 1px 1px #000000);
+}

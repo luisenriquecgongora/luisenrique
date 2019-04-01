@@ -1,6 +1,6 @@
 import { CHANGE_LANGUAGE, CHANGE_INSTUTION } from "../constants/action-types";
 
-let defaultLanguage = 'en';
+let defaultLanguage = 'pl';
 let defaultInstitution = 'empathy'
 let language = localStorage["lang"];
 if(!language){

@@ -4,7 +4,7 @@ import './Footer.css';
 
 
 let text = {
-  name_dsc: {en: 'Digital Studio', es: 'Estudio digital', pl: 'Studio Cyfrowe'},
+  name_dsc: {en: 'Digital Studio', es: 'Estudio digital', pl: 'Digital Studio'},
 }
 
 const mapStateToProps = (state) => {

@@ -11,7 +11,7 @@ let text = {
     {
       en: 'Do you have any Web Ideas?',
       es: '¿Tienes en mente una página web?',
-      pl: 'Czy chcesz stworzyć stronę internetową?'
+      pl: 'Czy potrzebujesz strony internetowej?'
     },
   description:
     {

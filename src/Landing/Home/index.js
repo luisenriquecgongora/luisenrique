@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player'
 import './index.css';
 
 let text = {
-  moto: {en: 'Turning your Web Ideas into Reality', es: 'Transformamos tus Ideas en Realidad', pl: 'Zmień swoje pomysły w rzeczywistość'},
+  moto: {en: 'Turning your Web Ideas into Reality', es: 'Transformamos tus Ideas en Realidad', pl: 'Realizujemy Twoje pomysły internetowe'},
   services: {en: 'Web Development · Frontend · Backend · Digital Catalogs · Online Stores · Chatbots', es: 'Desarrollo Web · Frontend · Backend · Catálogos Digitales · Tiendas en Línea · Chatbots', pl: 'Tworzenie stron internetowych · Frontend · Backend · Katalogi cyfrowe · Sklepy internetowe · Chatboty'}
 }
 
