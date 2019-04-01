@@ -1,0 +1,27 @@
+.footer{
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: table;
+}
+
+.footer-container{
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  text-align: center;
+}
+
+.vertical-align{
+  vertical-align: middle;
+}
+
+.logo-footer{
+  margin: 10px;
+  border-radius: 10px;
+  width: 30px;
+}
+
+.link-white{
+  color: white;
+}

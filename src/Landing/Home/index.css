@@ -1,0 +1,234 @@
+.background-home-back{
+  top: 0vh;
+  right: 0vw;
+  background-image:url("/media/images/computer-night.jpg");
+  filter: grayscale(10%);
+  z-index: -3;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 120vh;
+}
+
+.background-home-back-tran{
+  top: 0vh;
+  left: 0vw;
+  background-image:
+    linear-gradient(180deg, rgba(0,0,0,1) 1%, rgba(0,0,0,0.57) 50%, rgba(0,0,0,0.25) 70%, rgba(0,0,0,0.70) 85%, rgba(0,0,0,1) 100%);
+  background-blend-mode: normal;
+  z-index: -3;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 120vh;
+}
+
+.background-home{
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: table;
+}
+
+button{
+  cursor: pointer;
+}
+
+.home-dsc{
+  margin-top: 10px !important;
+}
+
+.img-home-a{
+  z-index: -2;
+  position: fixed;
+  top: -90vh;
+  right: -30vw;
+  width: 1200px;
+  opacity: 0.5;
+  transform: rotate(20deg);
+}
+
+.img-home-b{
+  z-index: -2;
+  position: fixed;
+  top: 10vh;
+  right: -65vw;
+  width: 1200px;
+  opacity: 0.5;
+  transform: rotate(-30deg);
+}
+
+.source-home-a{
+  transform: translateZ(0);
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  top: 22vh;
+  right: -6vw;
+  border-radius: 50px;
+  background-color: #6D1CC9;
+  -webkit-filter: grayscale(100%) blur(20px); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(20px);
+  opacity: 0.0;
+  -webkit-animation: fadein 10s infinite; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s infinite; /* Firefox < 16 */
+    -ms-animation: fadein 10s infinite; /* Internet Explorer */
+     -o-animation: fadein 10s infinite; /* Opera < 12.1 */
+        animation: fadein 10s infinite;
+  animation-delay: 9s;
+  box-shadow: 8px 10px 30px 0 rgba(0, 0, 0, 0.17);
+}
+
+.source-home-b{
+  transform: translateZ(0);
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  top: 65vh;
+  right: -7vw;
+  border-radius: 4px;
+  background-color: #6D1CC9;
+  -webkit-filter: grayscale(100%) blur(20px); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(20px);
+  opacity: 0.0;
+  -webkit-animation: fadein 10s infinite; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s infinite; /* Firefox < 16 */
+    -ms-animation: fadein 10s infinite; /* Internet Explorer */
+     -o-animation: fadein 10s infinite; /* Opera < 12.1 */
+        animation: fadein 10s infinite;
+  animation-delay: 12s;
+  box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.source-home-c{
+  transform: translateZ(0);
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  top: 10vh;
+  right: 25vw;
+  border-radius: 4px;
+  background-color: #6D1CC9;
+  -webkit-filter: grayscale(100%) blur(20px);; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(20px) ;
+  opacity: 0.0;
+  -webkit-animation: fadein 10s infinite; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s infinite; /* Firefox < 16 */
+    -ms-animation: fadein 10s infinite; /* Internet Explorer */
+     -o-animation: fadein 10s infinite; /* Opera < 12.1 */
+        animation: fadein 10s infinite;
+  animation-delay: 8s;
+  box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.source-home-d{
+  transform: translateZ(0);
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  top: 40vh;
+  right: 17vw;
+  border-radius: 4px;
+  background-color: #6D1CC9;
+  -webkit-filter: grayscale(100%) blur(20px);; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(20px)  hue-rotate(250deg);
+  opacity: 0.0;
+  -webkit-animation: fadein 10s infinite; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s infinite; /* Firefox < 16 */
+    -ms-animation: fadein 10s infinite; /* Internet Explorer */
+     -o-animation: fadein 10s infinite; /* Opera < 12.1 */
+        animation: fadein 10s infinite;
+  animation-delay: 12s;
+  box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.source-home-e{
+  transform: translateZ(0);
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  top: 60vh;
+  right: 35vw;
+  border-radius: 4px;
+  background-color: #6D1CC9;
+  -webkit-filter: grayscale(100%) blur(20px);; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(20px) ;
+  opacity: 0.0;
+  animation-fill-mode: forwards;
+  animation-name: fadein;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.home-content-container{
+  z-index: 10;
+  height: 100vh;
+  width: 30vw;
+  margin-left: 10vw;
+  display: table;
+}
+
+.moto-container{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  height: 300px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.moto-title{
+  font-size: 2.6em !important;
+}
+
+.no-cpu {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+}{
+
+}
+@keyframes fadein {
+  0%   {opacity: 0; filter: grayscale(100%) blur(50px) ;}
+  10%  {opacity: 1.0; filter: grayscale(100%) blur(30px) ;}
+  50%  {opacity: 1.0; filter: grayscale(100%) blur(5px) ;}
+  100% {opacity: 0; filter: grayscale(100%) blur(40px) ;}
+}
+
+@media only screen and (max-width: 750px) {
+  .img-home-a{
+    z-index: -1;
+    position: fixed;
+    width: 800px;
+    opacity: 0.5;
+    transform: rotate(-30deg);
+  }
+
+  .img-home-b{
+    z-index: -1;
+    position: fixed;
+    top: 30vh;
+    right: -145vw;
+    width: 800px;
+    opacity: 0.5;
+    transform: rotate(-30deg);
+  }
+
+  .home-content-container{
+    height: 100vh;
+    width: 90vw;
+    margin-left: 5vw;
+    display: table;
+  }
+}

@@ -1,0 +1,126 @@
+.navbar-landing{
+  position: fixed;
+  min-height: 70px;
+  width: 100vw;
+  position: fixed;
+  z-index: 10000;
+  -webkit-transition: background-color 0.5s; /* Safari */
+  transition: background-color 0.5s;
+  display: flex;
+}
+
+.navbar-landing-scrolled{
+  background-color: white;
+  min-height: 70px;
+  width: 100vw;
+  position: fixed;
+  z-index: 10000;
+  box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.17);
+  -webkit-transition: background-color 0.5s; /* Safari */
+  transition: background-color 0.5s;
+  display: flex;
+}
+
+.navbar-landing-container{
+  position: absolute;
+  right: 0px;
+  width: fit-content;
+  margin-right: 2%;
+  float: right;
+  height: 70px;
+  display: flex;
+}
+
+.link-top-bar{
+  line-height: 70px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  -webkit-transition: color 0.5s; /* Safari */
+  transition: color 0.5s;
+}
+
+.link-top-bar-scrolled{
+  line-height: 70px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  -webkit-transition: color 0.5s; /* Safari */
+  transition: color 0.5s;
+}
+
+.link-empathy:hover{
+  opacity: 0.7;
+}
+
+.title-logo-align{
+  text-align: left;
+}
+
+.title-logo-landing{
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-size: 32.7px;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 1px;
+  font-weight:700;
+  color: white;
+  padding-left: 30px;
+}
+
+.title-logo-landing-scrolled{
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-size: 32.7px;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 1px;
+  font-weight:700;
+  color: black;
+  padding-left: 30px;
+}
+
+.small-tm{
+  font-size: xx-small;
+  position: relative;
+  top: -5px;
+  vertical-align: top;
+}
+
+.link-topbar{
+  font-size: small;
+}
+
+.button-topbar{
+  line-height: 20px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: small;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.17);
+}
+
+.button-topbar:hover{
+  font-size: small;
+  box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.17);
+}
+
+@media only screen and (max-width: 750px) {
+  .title-logo-landing{
+    padding-left: 10px;
+  }
+
+  .title-logo-landing-scrolled{
+    padding-left: 10px;
+  }
+
+  .title-logo-center{
+    text-align: center;
+  }
+}

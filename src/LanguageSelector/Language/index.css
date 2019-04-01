@@ -1,0 +1,15 @@
+.language-name{
+  opacity: 0.5;
+}
+
+.language-name:hover{
+  opacity: 1;
+}
+
+.black-text{
+  color: black;
+}
+
+.white-text{
+  color: white;
+}

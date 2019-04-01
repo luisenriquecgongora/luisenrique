@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.poiret-font{
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.hide-on-med-and-up{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+*{
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 750px) {
+
+}
