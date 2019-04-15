@@ -7,13 +7,8 @@ import {
 import Landing from './Landing/Landing';
 import { Provider } from "react-redux";
 import store from "./redux-helper/store/index";
-import LanguageSelector from "./LanguageSelector/index";
 
 class Platform extends Component {
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return (
       <Provider store={store}>

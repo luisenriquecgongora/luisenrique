@@ -14,7 +14,13 @@
   border-bottom: 10px solid transparent;
 }
 
-.image-client{
+.clients-list-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.client-container{
+  margin: 10px;
   display: flex;
   flex-direction: column;
   flex-grow: 0;
@@ -23,6 +29,8 @@
   filter: drop-shadow(0px 1px 1px #000000);
 }
 
-.image-client:hover{
-  filter: drop-shadow(1px 1px 1px #000000);
+.image-client{
+  margin-bottom: 5px;
+  height: 40px;
+  filter: brightness(0%);
 }

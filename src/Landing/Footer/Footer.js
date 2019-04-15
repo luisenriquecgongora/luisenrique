@@ -17,9 +17,9 @@ class FooterConnected extends Component {
       <div>
         <div className="footer">
           <div className="footer-container white-text">
-            <a href="https://www.facebook.com/oracliom/" target="_blank"><img src="/media/icons/fb_logo.png" className="logo-footer"></img></a>
-            <a href="https://www.linkedin.com/in/luis-enrique-castillo-g%C3%B3ngora-web-developer-9044a411b/" target="_blank"><img src="/media/icons/ln_logo.png" className="logo-footer"></img></a>
-            <a href="https://github.com/luisenriquecgongora"  target="_blank"><img src="/media/icons/github-icon.png" className="logo-footer"></img></a>
+            <a href="https://www.facebook.com/oracliom/" target="_blank" rel="noopener noreferrer"><img alt="fb_logo" src="/media/icons/fb_logo.png" className="logo-footer"/></a>
+            <a href="https://www.linkedin.com/in/luis-enrique-castillo-g%C3%B3ngora-web-developer-9044a411b/" target="_blank" rel="noopener noreferrer"><img alt="ln_logo" src="/media/icons/ln_logo.png" className="logo-footer"/></a>
+            <a href="https://github.com/luisenriquecgongora"  target="_blank" rel="noopener noreferrer"><img alt="gh_logo" src="/media/icons/github-icon.png" className="logo-footer"/></a>
             <h1>Oracliom</h1>
             <h4>{text.name_dsc[this.props.language]}</h4>
             <a className="link-white poiret-font" href="mailto:luis.castillo@oracliom.com"><p> hello@oracliom.com</p></a>

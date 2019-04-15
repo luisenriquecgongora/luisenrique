@@ -1,0 +1,108 @@
+$border-radius-card: 3px;
+
+.portfolio-container{
+  background-color: white;
+}
+
+.portfolio-title{
+  text-align:  center;
+  padding-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 98%;
+}
+
+.my-masonry-grid_column {
+  background-clip: padding-box;
+}
+
+.block-display{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+.block-container{
+  width: 100%;
+  height: 100%;
+  border-radius: $border-radius-card;
+  background: #FFFFFF;
+  border: 1px solid rgba(44, 44, 44, 0.5);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-container:hover{
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1);
+}
+
+.image-card{
+  width: 100%;
+  height: auto;
+  border-radius: $border-radius-card $border-radius-card 0px 0px;
+}
+
+.title-card{
+  margin: 2%;
+  font-size: 20px;
+}
+.description-card{
+  font-family: 'Poiret One', cursive;
+  margin: 2%;
+  font-size: 12px;
+}
+.el2{
+  height: 470px;
+}
+
+.el3{
+  height: 200px;
+}
+
+.el4{
+  height: 250px;
+}
+
+.el5{
+  height: 400px;
+}
+
+.el6{
+  height: 400px;
+}
+
+.el7{
+  height: 600px;
+}
+
+
+@media only screen and (min-width: 568px) {
+  .my-masonry-grid {
+    width: 480px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .my-masonry-grid {
+    width: 660px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .my-masonry-grid {
+    width: 960px;
+  }
+
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
 import anime from 'animejs';
 import './index.css';
@@ -9,13 +8,13 @@ import { InView } from 'react-intersection-observer';
 let text = {
   title:
     {
-      en: 'Do you have any Web Ideas?',
+      en: `You Imagine. We Create.`,
       es: '¿Tienes en mente una página web?',
       pl: 'Czy potrzebujesz strony internetowej?'
     },
   description:
     {
-      en: 'You imagine. We create. We make the imposible to make it real. We can: ',
+      en: 'We make the imposible to make it real. We can: ',
       es: 'Tú imagine. Nosotros lo hacemos realidad. Convertimos lo imposible en realidad. Nosotros podemos: ',
       pl: 'Wyobrażasz sobie. Tworzymy. Sprawiamy, że niemożliwe staje się to realne. Możemy:'
     },
@@ -55,7 +54,7 @@ class MotoConnected extends Component {
   }
 
   showGif(inView){
-    if(this.state.gifShown == false && inView == true){
+    if(this.state.gifShown === false && inView === true){
       this.setState({
         gifShown: true
       }, ()=>{
@@ -78,7 +77,7 @@ class MotoConnected extends Component {
 
   render() {
     return (
-      <div className="">
+      <div>
         <InView onChange={this.showGif}>
           <div className="abelFont container-moto">
               <div className="container-description-moto">

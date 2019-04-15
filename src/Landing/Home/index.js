@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
 import Typed from 'react-typed';
-import ReactPlayer from 'react-player'
 import './index.css';
 
 let text = {
@@ -19,7 +17,6 @@ class AboutConnected extends Component {
     super(props);
     this.state = {
     }
-
   }
 
   componentWillReceiveProps(){

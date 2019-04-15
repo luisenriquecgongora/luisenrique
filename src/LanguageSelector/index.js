@@ -8,7 +8,7 @@ import 'flag-icon-css/css/flag-icon.css';
 function LanguageList(props){
   var languagesList = props.languages;
   const listLanguages = languagesList.map(function(language){
-    if(props.currentLanguage != language.name){
+    if(props.currentLanguage !== language.name){
       return(
         <Language key={language.name} language={language} selectLanguage={props.selectLanguage} scrolled={props.scrolled}/>
       );
@@ -79,7 +79,6 @@ class LanguageSelectorConnected extends Component {
   }
 
   render() {
-    let pos = this.state.languages.map(function(e) { return e.name; }).indexOf(this.props.language);
     let textColor = (this.props.scrolled ? ('black-text'):('white-text'))
     return (
       <div className='language-selector abelFont'>
